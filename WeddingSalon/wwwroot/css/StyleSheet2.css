@@ -1,0 +1,113 @@
+﻿body {
+    background-image: url(https://media.vogue.ru/photos/60053c99bbc157de5445eaa8/master/w_2727,h_1818,c_limit/Viktor-Rolf-Bridal-Spring-2021.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+    color: #333;
+    text-shadow: none; 
+}
+
+
+.cover-container {
+    max-width: 42em;
+}
+main.container {
+    height: 10em;
+    position: relative;
+}
+    main.container a {
+        margin: 0;
+        position: absolute;
+        top: 270%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+    }
+h1 {
+    margin: 0;
+    position: absolute;
+    top: 30%;
+    left: 57%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    font-family:'Times New Roman', Times, serif;
+    font-size:60px;
+    
+}
+.category {
+    top: 200%;
+  
+    height: 40px;
+    width: 1500px;
+}
+h2 {
+    text-align:center;
+}
+.category {
+    background-color: burlywood;
+}
+.bblock1 {
+    float: left; /*Задаем обтекание*/
+    line-height: 120px; /*Высота строки +  верт. центрирования текста*/
+    font-size: 40px;
+    background-image: url(https://spb.salon-love-forever.ru/upload/resize_cache/iblock/acd/600_900_2a1fde8d5e7dcaa11be442336c9d37f5e/IMG_5877.WEBP);
+    background-size: cover;
+    color: white;
+    margin-top: 60px;
+    width: 490px;
+    height: 210px;
+    /*Фиксируем ширину блока*/
+    margin-right: 5px;
+    text-align: center; /*Центрируем текст по горизонтали*/
+}
+.bblock2 {
+    float: left; /*Задаем обтекание*/
+    line-height: 120px; /*Высота строки +  верт. центрирования текста*/
+    font-size: 40px;
+    background-image: url(https://cdn-1.jjshouse.com/upimg/s400/3c/81/4abf9c63185cb293a9ce0cd3fa383c81.jpg);
+    background-size: cover;
+    color: white;
+    margin-top: 60px;
+    width: 490px;
+    height: 210px;
+    /*Фиксируем ширину блока*/
+    margin-right: 5px;
+    text-align: center; /*Центрируем текст по горизонтали*/
+   
+}
+.bblock3 {
+    float: left; /*Задаем обтекание*/
+    line-height: 120px; /*Высота строки +  верт. центрирования текста*/
+    font-size: 40px;
+    background-image: url(https://365moda.ru/wp-content/uploads/2016/05/Modnye_svadebnye_aksessuary_2017-43-438x330.jpg);
+    background-size: cover;
+    color: white;
+    margin-top: 60px;
+    width: 490px;
+    height: 210px;
+    /*Фиксируем ширину блока*/
+    margin-right: 5px;
+    text-align: center; /*Центрируем текст по горизонтали*/
+}
+
+
+
+/*Categories*/
+.category1{
+    background-image:none;
+    background-color:white;
+}
+h3 {
+    margin: 0;
+    position: absolute;
+    top: 30%;
+    left: 57%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 60px;
+}
